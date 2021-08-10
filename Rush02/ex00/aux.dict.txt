@@ -1,0 +1,5 @@
+0: an
+1: deu
+2: trau
+3: Kate
+4: seix

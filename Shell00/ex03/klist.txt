@@ -1,0 +1,5 @@
+Credentials cache: API:83ED3CDE-E766-4EDB-9450-A45E671403AF
+        Principal: goliano-@42MADRID.COM
+
+  Issued                Expires               Principal
+Jun 21 15:24:01 2021  Jun 22 01:23:55 2021  krbtgt/42MADRID.COM@42MADRID.COM

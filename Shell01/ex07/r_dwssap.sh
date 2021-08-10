@@ -1,0 +1,1 @@
+sed '/^[[:blank:]]*#/d;s/#.*//' /etc/passwd | sed -n 'n;p' | cut -d ":" -f1 | rev | sort -r | awk -v a="$FT_LINE1" -v b="$FT_LINE2" '(NR>=a && NR<=b)' | tr '\n' ',' | sed 's:,:, :g' | sed 's/, *$/\./' | tr -d '\n'
